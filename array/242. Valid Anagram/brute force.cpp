@@ -10,3 +10,10 @@ public:
         return s == t;
     }
 };
+
+
+Time complexity: O(n log n + m log m)
+
+Space complexity:
+O(1) — if using in-place sorting (e.g., heap sort)
+O(n + m) — if using non in-place sorting (e.g., merge sort / Timsort)
