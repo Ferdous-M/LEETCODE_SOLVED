@@ -16,3 +16,7 @@ public:
         return countS == countT;
     }
 };
+
+Time complexity: O(n + m)
+
+Space complexity: O(1) — since we have at most 26 different characters
